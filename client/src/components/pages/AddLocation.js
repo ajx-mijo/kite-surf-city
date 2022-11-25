@@ -1,7 +1,7 @@
 /* eslint-disable comma-dangle */
 
 // React
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
 
 // Imports
@@ -13,7 +13,7 @@ import LocationForm from '../common/LocationForm.js'
 import UploadImage from '../../helpers/UploadImage.js'
 
 const AddLocation = () => {
-  
+
 
   // ! Location Variables
   const navigate = useNavigate()
@@ -77,7 +77,7 @@ const AddLocation = () => {
         />
       </div>
     </div>
-    
+
   )
 }
 
