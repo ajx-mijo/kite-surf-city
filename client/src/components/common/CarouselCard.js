@@ -4,7 +4,7 @@ import Carousel from 'react-bootstrap/Carousel'
 
 import Card from 'react-bootstrap/Card'
 import Col from 'react-bootstrap/esm/Col'
-import Row from 'react-bootstrap/esm/Row'
+import Row from 'react-bootstrap/Row'
 import InfographicMulti from './InfographicMulti'
 
 
