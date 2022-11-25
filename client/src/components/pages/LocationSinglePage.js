@@ -6,7 +6,7 @@ import { useParams, Link, useNavigate } from 'react-router-dom'
 import axios from 'axios'
 import { isOwner, getToken } from '../common/Auth'
 // Bootstrap components
-import Row from 'react-bootstrap/Row'
+import Row from 'react-bootstrap/esm/Row'
 import Col from 'react-bootstrap/Col'
 import Container from 'react-bootstrap/Container'
 import Tab from 'react-bootstrap/Tab'

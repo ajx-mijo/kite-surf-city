@@ -4,7 +4,7 @@ import { Link, useParams, useNavigate } from 'react-router-dom'
 
 // Bootstrap imports
 import Card from 'react-bootstrap/Card'
-import Row from 'react-bootstrap/Row'
+import Row from 'react-bootstrap/esm/Row'
 import Col from 'react-bootstrap/Col'
 import Container from 'react-bootstrap/Container'
 import ListGroup from 'react-bootstrap/ListGroup'
@@ -163,7 +163,7 @@ const UserProfilePage = () => {
                   )}
                 </>
               </div>
-              {/* ? User favourite locations will go here*/} 
+              {/* ? User favourite locations will go here*/}
               {/* <div className='user-favourites mt-4'>
               <h3 className="mt-5 mb-5">Your Places</h3>
               <div className='favourite-card-container'>
