@@ -19,6 +19,7 @@ const CarouselImageController = ({ location }) => {
         <>
           <Carousel activeIndex={index} onSelect={handleSelect} className='header-image'>
             {images.map(img => {
+              console.log('img->', img)
               return (
                 <Carousel.Item key={img}>
                   <img

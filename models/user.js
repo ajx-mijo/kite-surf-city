@@ -77,19 +77,16 @@ userSchema.virtual('reviews', {
   ref: 'VanSpot',
   localField: '_id',
   foreignField: 'locations.reviews.owner',
-  get: function (res, _virtualType, user){
+  get: function (res, _virtualType, user) {
     if (!res) return
     const fieldValue = []
 
-    if (res.length){
+    if (res.length) {
       res.forEach(country => {
         country.getOwnedReviews(fieldValue, user)
       })
-    } else {
-      //res.getOwnedReviews(fieldValue, user)
     }
 
-    
     return fieldValue
   }
 })
