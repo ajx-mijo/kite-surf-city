@@ -1,6 +1,7 @@
+/* eslint-disable no-unused-vars */
 import express from 'express'
 import mongoose from 'mongoose'
-import { } from 'dotenv/config'
+import 'dotenv/config'
 import router from './config/router.js'
 import path, { dirname } from 'path'
 import { fileURLToPath } from 'url'
@@ -20,6 +21,16 @@ const startServer = async () => {
     await mongoose.connect(dbURI)
     console.log('💃 Database up and running 💃')
 
+    // Router
+    app.use('/api', router)
+
+    // ** New lines **
+    app.use(express.static(path.join(__dirname, 'client', 'build')))
+
+    app.get('*', (req, res) => {
+      res.sendFile(path.join(__dirname, 'client', 'build', 'index.html'))
+    })
+
     // ! Middleware
     // Parse JSON body to req.body 
     app.use(express.json())
@@ -32,7 +43,7 @@ const startServer = async () => {
     // Router
     app.use('/api', router)
 
-
+    // ** New lines **
     app.use(express.static(path.join(__dirname, 'client', 'build')))
 
     app.get('*', (req, res) => {

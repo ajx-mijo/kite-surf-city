@@ -1,6 +1,4 @@
-/* eslint-disable prefer-const */
-/* eslint-disable comma-dangle */
-/* eslint-disable no-undef */
+
 import axios from 'axios'
 
 import { useState, useEffect } from 'react'
