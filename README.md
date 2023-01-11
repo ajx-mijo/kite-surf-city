@@ -6,7 +6,7 @@ Layby was a group project at General Assembly focussed around building out a Ful
 
 ## Deployment Link - [Layby](https://layby-van.herokuapp.com/)
 
-
+![Project Screenshot](https://res.cloudinary.com/doqbnr4p6/image/upload/v1673452946/readMe3/image8_lyxx6o.png)
 
 ## Timeframe & Working Team
 The timeframe for this project was 10 days from planning to delivery and I worked as part of a three person team for the duration of the project.
@@ -36,10 +36,15 @@ The brief set out by the instructional team was to build out a Full-Stack applic
 
 ## Planning
 
+![Mobile Wireframe](https://res.cloudinary.com/doqbnr4p6/image/upload/v1673452946/readMe3/image8_lyxx6o.png)
 
-In planning the project, we started out by deciding the theme of our application, a community-based ‘Van-Life’ travel site. This decision was taken as all three members of the team had experience with this topic and saw an opportunity to provide a service/forum where there wasn’t currently an existing option. Following on from this, we began to wireframe out the different application pages using Excalidraw and considered the general user-story across these pages whilst considering the functionalities we would have to build in to deliver on our goals. 
+In planning the project, we started out by deciding the theme of our application, a community-based ‘Van-Life’ travel site. This decision was taken as all three members of the team had experience with this topic and saw an opportunity to provide a service/forum where there wasn’t currently an existing option. Following on from this, we began to wireframe out the different application pages using Excalidraw and considered the general user-story across these pages whilst considering the functionalities we would have to build in to deliver on our goals.
+
+![Web Wireframe](https://res.cloudinary.com/doqbnr4p6/image/upload/v1673452946/readMe3/image8_lyxx6o.png)
+
 We adopted a Mobile-First design approach to ensure ideal UX across all device sizes.  At this point, we created a Trello board to manage the workflow of our project and allow greater flexibility in the build process of components and functionalities. Once established, we  moved on to focus on a plan for our data structure and relationships on the back-end as well as creating a framework for our seed data. Finally, we considered what middleware, routers, controllers and packages we would require across the project as well as discussing internal project deadlines and priority tasks to make sure our work remained on track for completion.
 
+![Mobile Wireframe 2](https://res.cloudinary.com/doqbnr4p6/image/upload/v1673452944/readMe3/image4_cinjg0.png)
 
 ## Build/Code Process
 
@@ -49,15 +54,17 @@ To begin with, we built out the back-end including Schemas, the router, our midd
 
 The Back-End, now including our secure route and helper functions for our controllers was basically complete by the end of our second day on project, at which time most of the focus switched to the Front-End of the project and successfully integrating the Back-End of the project with our Front-End.
 
+![Code Screenshot - Back-End Controller](https://res.cloudinary.com/doqbnr4p6/image/upload/v1673452946/readMe3/image6_wlpqww.png)
 
 I took responsibility at this point for building out the Location Index, Navbar and Individual Location pages with all the functionalities contained within. The initial focus of this effort was to create a Search Bar/ Dropdown Item functionality on the index page and to lay out the basic format through the React-Bootstrap Row/Col/Card structure. Once this had been completed, I moved onto the Single Location page which we predicted (alongside the profile page) was going to have the highest average Time-On-Page on our site. 
 
 When building out the Single Location page the primary objective was for the page to be visually engaging, informative and naturally interactive. To achieve these objectives, I built out a React Carousel component to display the images related to the specific location and then an Infographic Component using React-Icons to display and convey information to users in a more visually stimulating and interesting manner. I broke down the page information into two tabs: one for information related to the individual location and another to allow for user engagement through leaving rated reviews which were instantly viewable on the page as well as in the User Profile.
 
-
+![Code Screenshot - Review Function](https://res.cloudinary.com/doqbnr4p6/image/upload/v1673452946/readMe3/image9_i9uj31.png)
 
 To add further depth to the information available to the user I utilised MapBox GL to import and display a map that was dynamically centred on the latitude and longitude of the Van Location. 
 
+![Code Screenshot - MapBox GL](https://res.cloudinary.com/doqbnr4p6/image/upload/v1673452946/readMe3/image7_qmssrp.png)
 
 Once the single page’s functionality was complete I created our Authentication functions for use across the Front-End to allow for full CRUD functionality before conditionally displaying Edit/Delete buttons on locations when the relevant user was logged in and viewing the Single-Location page.
 
@@ -65,7 +72,7 @@ All throughout this process, I was regularly jumping in with my team-mates to he
 
 Finally, our focus turned to styling and implementing the clean, minimalist design language across all pages with a White/Grey colour scheme with Dark Red accent. As mentioned, we followed a Mobile-First philosophy to improve utility across all devices. I designed a logo and then we all spent the last two days of the project styling out all pages to create a more unified feel to the site and imported external content to add more depth to our site in relation to the ‘Van-Life’ community.
 
-
+![Project Screenshot - Widget](https://res.cloudinary.com/doqbnr4p6/image/upload/v1673452945/readMe3/image3_uvo9ew.png)
 
 
 
@@ -93,7 +100,7 @@ Finally, our focus turned to styling and implementing the clean, minimalist desi
 
 - We created a complicated nested data-structure with multiple embedded relationships on our data schema which made the process of populating the User profile through referenced relationships a more complex and time consuming process. We resolved this issue by using a virtual property and a getter to populate a User with their individual reviews. In the future we would probably implement a different data structure if that is something within our control. Although, it was a great learning experience.
 
-
+![Code Screenshot - Populated User Schema](https://res.cloudinary.com/doqbnr4p6/image/upload/v1673452945/readMe3/image5_kvffof.png)
 
 - By and large working on a shared repository went smoothly although there were a few occasions when we had to disentangle conflicts on the Front-End (mainly on the SCSS file).
 
