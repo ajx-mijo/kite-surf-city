@@ -36,11 +36,11 @@ The brief set out by the instructional team was to build out a Full-Stack applic
 
 ## Planning
 
-![Mobile Wireframe](https://res.cloudinary.com/doqbnr4p6/image/upload/v1673452946/readMe3/image8_lyxx6o.png)
+![Mobile Wireframe](https://res.cloudinary.com/doqbnr4p6/image/upload/v1673452945/readMe3/image2_or33z4.png)
 
 In planning the project, we started out by deciding the theme of our application, a community-based ‘Van-Life’ travel site. This decision was taken as all three members of the team had experience with this topic and saw an opportunity to provide a service/forum where there wasn’t currently an existing option. Following on from this, we began to wireframe out the different application pages using Excalidraw and considered the general user-story across these pages whilst considering the functionalities we would have to build in to deliver on our goals.
 
-![Web Wireframe](https://res.cloudinary.com/doqbnr4p6/image/upload/v1673452946/readMe3/image8_lyxx6o.png)
+![Web Wireframe](https://res.cloudinary.com/doqbnr4p6/image/upload/v1673452946/readMe3/image10_cxmcav.png)
 
 We adopted a Mobile-First design approach to ensure ideal UX across all device sizes.  At this point, we created a Trello board to manage the workflow of our project and allow greater flexibility in the build process of components and functionalities. Once established, we  moved on to focus on a plan for our data structure and relationships on the back-end as well as creating a framework for our seed data. Finally, we considered what middleware, routers, controllers and packages we would require across the project as well as discussing internal project deadlines and priority tasks to make sure our work remained on track for completion.
 
